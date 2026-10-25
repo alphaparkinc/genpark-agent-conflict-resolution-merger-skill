@@ -1,0 +1,12 @@
+{
+  "name": "genpark-agent-conflict-resolution-merger-skill",
+  "version": "1.0.0",
+  "description": "3-way operational transform / conflict resolution merger for multi-agent concurrent writes to code/documents",
+  "mcp": {
+    "server": "mcp_server.py",
+    "tools": [
+      "merge_3way",
+      "detect_conflicts"
+    ]
+  }
+}
